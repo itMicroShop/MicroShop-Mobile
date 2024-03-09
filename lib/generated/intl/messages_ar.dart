@@ -23,50 +23,52 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "Shipping": MessageLookupByLibrary.simpleMessage("عنوان التوصيل"),
-        "aboutUs": MessageLookupByLibrary.simpleMessage("معلومات عنا"),
+        "aboutUs": MessageLookupByLibrary.simpleMessage("عن مايكروشوب"),
         "accountDeleteDes": MessageLookupByLibrary.simpleMessage(
-            "لا يمكن التراجع عن هذا الإجراء. سيتم فقد كل القيم المرتبطة بهذا الحقل."),
+            "لا يمكن التراجع عن هذا الإجراء. سيتم فقد كل القيم المرتبطة بهذا الحقل"),
         "addAddress": MessageLookupByLibrary.simpleMessage("إضافة عنوان"),
         "addNewAddress":
             MessageLookupByLibrary.simpleMessage("إضافة عنوان جديد"),
-        "additionalInfo":
-            MessageLookupByLibrary.simpleMessage("اكتب هنا أي معلومات إضافية"),
-        "addressLine1": MessageLookupByLibrary.simpleMessage("Address Line 1"),
-        "addressLine2": MessageLookupByLibrary.simpleMessage("Address Line 2"),
+        "additionalInfo": MessageLookupByLibrary.simpleMessage(
+            "اكتب هنا أي معلومات أو ملاحظات إضافية"),
+        "addressLine1":
+            MessageLookupByLibrary.simpleMessage("عنوان اول - ثابت"),
+        "addressLine2":
+            MessageLookupByLibrary.simpleMessage("عنوان ثاني - احتطياطي"),
         "addressTag": MessageLookupByLibrary.simpleMessage("علامة العنوان"),
-        "allCategories": MessageLookupByLibrary.simpleMessage("جميع الفئات"),
+        "allCategories": MessageLookupByLibrary.simpleMessage("جميع ألاقسام"),
         "allProducts":
             MessageLookupByLibrary.simpleMessage("جميع المنتجات المتاحة"),
         "allReadyHaveAccount":
             MessageLookupByLibrary.simpleMessage("هل لديك حساب؟"),
-        "applied": MessageLookupByLibrary.simpleMessage("Applied"),
-        "apply": MessageLookupByLibrary.simpleMessage("Apply"),
+        "applied": MessageLookupByLibrary.simpleMessage("تم التفعيل"),
+        "apply": MessageLookupByLibrary.simpleMessage("تفعيل الكود"),
         "areYouSure": MessageLookupByLibrary.simpleMessage("هل أنت متأكد؟"),
         "area": MessageLookupByLibrary.simpleMessage("منطقة"),
         "cancel": MessageLookupByLibrary.simpleMessage("إلغاء"),
         "cancelOrder": MessageLookupByLibrary.simpleMessage("الغاء الطلب"),
         "card": MessageLookupByLibrary.simpleMessage("بطاقة الائتمان أو الخصم"),
-        "cart": MessageLookupByLibrary.simpleMessage("عربة التسوق"),
+        "cart": MessageLookupByLibrary.simpleMessage("سلة التسوق"),
         "cashOnDelivery":
             MessageLookupByLibrary.simpleMessage("الدفع عند الاستلام"),
-        "categories": MessageLookupByLibrary.simpleMessage("فئات"),
+        "categories": MessageLookupByLibrary.simpleMessage("أقسام"),
         "change": MessageLookupByLibrary.simpleMessage("تغير"),
         "checkInternetConnection":
             MessageLookupByLibrary.simpleMessage("تحقق من اتصال الإنترنت"),
-        "checkOut": MessageLookupByLibrary.simpleMessage("الدفع"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("الدفع وتأكيد الطلب"),
         "confirm": MessageLookupByLibrary.simpleMessage("قيد تيأكد"),
         "confirmOTP": MessageLookupByLibrary.simpleMessage("تأكيد كود التحقق"),
         "confirmPassword":
             MessageLookupByLibrary.simpleMessage("تأكيد كلمة السر"),
         "continueShopping":
-            MessageLookupByLibrary.simpleMessage("مواصلة التسوق"),
+            MessageLookupByLibrary.simpleMessage("متابعة التسوق"),
         "createNewPass":
             MessageLookupByLibrary.simpleMessage("إنشاء كلمة سر جديدة"),
-        "dark": MessageLookupByLibrary.simpleMessage("مظلم"),
+        "dark": MessageLookupByLibrary.simpleMessage("وضع ليلي"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("حذف الحساب"),
-        "deliverTo": MessageLookupByLibrary.simpleMessage("يسلم إلى"),
+        "deliverTo": MessageLookupByLibrary.simpleMessage("عنوان التوصيل"),
         "deliveryCharge": MessageLookupByLibrary.simpleMessage("رسوم التوصيل"),
-        "discount": MessageLookupByLibrary.simpleMessage("تخفيض"),
+        "discount": MessageLookupByLibrary.simpleMessage("التخفيضات والعروض"),
         "distanceFML": MessageLookupByLibrary.simpleMessage("المسافة من موقعي"),
         "dontHaveAccount":
             MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟"),
@@ -74,11 +76,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "edtimatedDT": MessageLookupByLibrary.simpleMessage("يقدر وقت التسليم"),
         "email": MessageLookupByLibrary.simpleMessage("بريد إلكتروني"),
         "emialOrPhone":
-            MessageLookupByLibrary.simpleMessage("بريد الكتروني او هاتف"),
+            MessageLookupByLibrary.simpleMessage("بريد الكتروني او رقم هاتف"),
         "enterAddressLine1":
-            MessageLookupByLibrary.simpleMessage("Enter Address Line 1"),
+            MessageLookupByLibrary.simpleMessage("أدخل عنوان اول - ثابت"),
         "enterAddressLine2":
-            MessageLookupByLibrary.simpleMessage("Enter Address Line 2"),
+            MessageLookupByLibrary.simpleMessage("أدخل عنوان تاني "),
         "enterArea": MessageLookupByLibrary.simpleMessage("أدخل المنطقة"),
         "enterFlatNo": MessageLookupByLibrary.simpleMessage("أدخل الشارع"),
         "enterName": MessageLookupByLibrary.simpleMessage("أدخل أسمك"),
@@ -91,43 +93,43 @@ class MessageLookup extends MessageLookupByLibrary {
         "flat": MessageLookupByLibrary.simpleMessage("شارع"),
         "forgetPassword":
             MessageLookupByLibrary.simpleMessage("نسيت كلمة السر"),
-        "goToHome": MessageLookupByLibrary.simpleMessage("اذهب إلى المنزل"),
+        "goToHome": MessageLookupByLibrary.simpleMessage(
+            "اذهب إلى الريئسية ومتابعة التسوق"),
         "home": MessageLookupByLibrary.simpleMessage("المنزل"),
         "incorrectPin":
             MessageLookupByLibrary.simpleMessage("كود التحقق غير صحيح"),
         "items": MessageLookupByLibrary.simpleMessage("عناصر الطلب"),
         "language": MessageLookupByLibrary.simpleMessage("اللغات"),
         "lastName": MessageLookupByLibrary.simpleMessage("اسم العائلة"),
-        "light": MessageLookupByLibrary.simpleMessage("Light"),
+        "light": MessageLookupByLibrary.simpleMessage("وضع نهاري"),
         "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "loginDes": MessageLookupByLibrary.simpleMessage(
-            "الرجاء تسجيل الدخول لمواصلة التسوق"),
+            "الرجاء تسجيل الدخول لمتابعة التسوق"),
         "logutConfirmation": MessageLookupByLibrary.simpleMessage(
             "هل أنت متأكد أنك تريد تسجيل الخروج؟"),
         "makeDefault":
             MessageLookupByLibrary.simpleMessage("تحديد كعنوان دائم"),
-        "manageAddress": MessageLookupByLibrary.simpleMessage("إدارة العنوان"),
+        "manageAddress": MessageLookupByLibrary.simpleMessage("إدارة العناوين"),
         "myorder": MessageLookupByLibrary.simpleMessage("طلباتي"),
         "name": MessageLookupByLibrary.simpleMessage("أسم"),
         "nearByStore":
             MessageLookupByLibrary.simpleMessage("المتاجر القريبة لك"),
         "newPassDes": MessageLookupByLibrary.simpleMessage(
-            "اكتب وتأكيد كلمة سر جديدة آمنة لحسابك"),
+            " تأكد من كتابة كلمة سر جديدة آمنة لحسابك"),
         "noCategoriesFound":
-            MessageLookupByLibrary.simpleMessage("لم يتم العثور على فئة!"),
+            MessageLookupByLibrary.simpleMessage("!عفوآ لم يتم العثور على قسم"),
         "noInternetDes": MessageLookupByLibrary.simpleMessage(
-            "لم يتم العثور على اتصال إنترنت. تحقق من اتصالك أو حاول مرة أخرى."),
-        "noProductFound":
-            MessageLookupByLibrary.simpleMessage("لم يتم العثور على منتج!"),
+            "لم يتم العثور على اتصال إنترنت . تحقق من اتصالك أو حاول مرة أخرى"),
+        "noProductFound": MessageLookupByLibrary.simpleMessage(
+            "! عفوآ لم يتم العثور على المنتج"),
         "office": MessageLookupByLibrary.simpleMessage("المكتب"),
-        "okay": MessageLookupByLibrary.simpleMessage("تمام"),
+        "okay": MessageLookupByLibrary.simpleMessage("نعم"),
         "orderDetails": MessageLookupByLibrary.simpleMessage("تفاصيل الطلب"),
         "orderDialogDes": MessageLookupByLibrary.simpleMessage(
             "ستتلقى رسالة تأكيد مع تفاصيل طلبك"),
-        "orderId":
-            MessageLookupByLibrary.simpleMessage("رقم التعريف الخاص بالطلب"),
-        "orderNotFound":
-            MessageLookupByLibrary.simpleMessage("لا يمكن العثور على طلبك!"),
+        "orderId": MessageLookupByLibrary.simpleMessage("رقم الطلب الخاص بك"),
+        "orderNotFound": MessageLookupByLibrary.simpleMessage(
+            "!عفوا لا يمكن العثور على طلبك"),
         "orderStatus": MessageLookupByLibrary.simpleMessage("حالة الطلب"),
         "order_received":
             MessageLookupByLibrary.simpleMessage("تم استلام طلبك"),
@@ -135,9 +137,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "other": MessageLookupByLibrary.simpleMessage("مكان أخر"),
         "outOfStock": MessageLookupByLibrary.simpleMessage("إنتهى من المخزن"),
         "pEnterPromoCode": MessageLookupByLibrary.simpleMessage(
-            "الرجاء إدخال كود الخصم الخاص بك!"),
+            "!الرجاء إدخال كود الخصم الخاص بك"),
         "passRecoverDes": MessageLookupByLibrary.simpleMessage(
-            "أدخل البريد الإلكتروني أو رقم الهاتف الذي استخدمته عند التسجيل لاستعادة كلمة المرور الخاصة بك. ستتلقى رمز كود التحقق"),
+            "أدخل البريد الإلكتروني أو رقم الهاتف الذي استخدمته عند التسجيل لإستعادة كلمة المرور الخاصة بك. ستتلقى كود التحقق"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة السر"),
         "payableAmount":
             MessageLookupByLibrary.simpleMessage("مبلغ مستحق الدفع"),
@@ -149,13 +151,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "postalCode": MessageLookupByLibrary.simpleMessage("رمز بريدي"),
         "privacyPolicy": MessageLookupByLibrary.simpleMessage("سياسة الخصوصية"),
         "productDNF": MessageLookupByLibrary.simpleMessage(
-            "تفاصيل المنتج لم يتم العثور عليها!"),
+            "! عفوآ لم يتم العثور على تفاصيل المنتج"),
         "productDetails": MessageLookupByLibrary.simpleMessage("تفاصيل المنتج"),
-        "profile": MessageLookupByLibrary.simpleMessage("حساب تعريفي"),
-        "profileUS": MessageLookupByLibrary.simpleMessage(
-            "يتم تحديث ملف التعريف الناجح"),
+        "profile": MessageLookupByLibrary.simpleMessage("حساب الشخصي"),
+        "profileUS":
+            MessageLookupByLibrary.simpleMessage("تم تحديث ملف الشخصي بنجاح"),
         "recommendedProduct":
-            MessageLookupByLibrary.simpleMessage("موصى به لك"),
+            MessageLookupByLibrary.simpleMessage("منتجات مخصصة لك  "),
         "recoverPassword":
             MessageLookupByLibrary.simpleMessage("إستعادة كلمة المرور"),
         "relatedItems":
@@ -163,12 +165,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "resend":
             MessageLookupByLibrary.simpleMessage("إعادة إرسال كود التحقق"),
         "resendCode": MessageLookupByLibrary.simpleMessage("إعادة إرسال"),
-        "reviews": MessageLookupByLibrary.simpleMessage("المراجعات"),
+        "reviews":
+            MessageLookupByLibrary.simpleMessage("المراجعات وتقيم المنتج"),
         "reviewsNotFound": MessageLookupByLibrary.simpleMessage(
-            "لم يتم العثور على مراجعة المستخدم!"),
+            "!عفوا لم يتم العثور على مراجعة المستخدم"),
         "save": MessageLookupByLibrary.simpleMessage("حفظ"),
         "searchProducts":
-            MessageLookupByLibrary.simpleMessage("ابحث عن المنتجات"),
+            MessageLookupByLibrary.simpleMessage("أبحث عن المنتجات"),
         "searchShop": MessageLookupByLibrary.simpleMessage("ابحث عن متجر"),
         "sec": MessageLookupByLibrary.simpleMessage("ثانية"),
         "selectPaymentMethod":
@@ -176,30 +179,32 @@ class MessageLookup extends MessageLookupByLibrary {
         "sendOtp": MessageLookupByLibrary.simpleMessage("إرسال كود التحقق"),
         "setPass": MessageLookupByLibrary.simpleMessage("تأكيد كلمة السر"),
         "shop": MessageLookupByLibrary.simpleMessage("متجر | محل"),
-        "shopNotfound":
-            MessageLookupByLibrary.simpleMessage("لم يتم العثور على متجر!"),
-        "signUp": MessageLookupByLibrary.simpleMessage("اشتراك"),
-        "someThingWrong": MessageLookupByLibrary.simpleMessage("هناك خطأ ما!"),
+        "shopNotfound": MessageLookupByLibrary.simpleMessage(
+            "!عفوآ لم يتم العثور على متجر"),
+        "signUp": MessageLookupByLibrary.simpleMessage("إشتراك"),
+        "someThingWrong":
+            MessageLookupByLibrary.simpleMessage("!عفوآ هناك خطأ ما"),
         "storeOpenT": MessageLookupByLibrary.simpleMessage("وقت مفتوح"),
         "subTotal": MessageLookupByLibrary.simpleMessage("المجموعات الفرعية"),
         "termsConditions":
-            MessageLookupByLibrary.simpleMessage("البنود و الظروف"),
+            MessageLookupByLibrary.simpleMessage("البنود و الشروط"),
         "to": MessageLookupByLibrary.simpleMessage("الي"),
         "toBePaid": MessageLookupByLibrary.simpleMessage("لكي تدفع"),
-        "total": MessageLookupByLibrary.simpleMessage("المجموع"),
+        "total": MessageLookupByLibrary.simpleMessage(" المجموع الكلي"),
         "updateProfile": MessageLookupByLibrary.simpleMessage("تحديث الملف"),
         "userAddressNotFound": MessageLookupByLibrary.simpleMessage(
-            "OPPS عنوان المستخدم لم يتم العثور عليه!"),
+            "!عفوا لم يتم العثور عنوان المستخدم"),
         "validationMessage": MessageLookupByLibrary.simpleMessage(
-            "لا يمكن أن يكون الحقل فارغًا"),
+            " عفوآ لا يمكن أن يكون الحقل فارغًا"),
         "verifyOTPDes":
             MessageLookupByLibrary.simpleMessage("تم إرسال كود التحقق الي "),
         "viewAll": MessageLookupByLibrary.simpleMessage("عرض الكل"),
-        "whoops": MessageLookupByLibrary.simpleMessage("يصيح !!"),
+        "whoops": MessageLookupByLibrary.simpleMessage("!...عفوآ"),
         "yourCartIsEmpty":
-            MessageLookupByLibrary.simpleMessage("عربة التسوق فارغة"),
+            MessageLookupByLibrary.simpleMessage("سلة التسوق فارغة"),
         "yourOrderID":
             MessageLookupByLibrary.simpleMessage("رقم الطلب الخاص بك هو"),
-        "yourPassword": MessageLookupByLibrary.simpleMessage("كلمة السر خاصتك")
+        "yourPassword":
+            MessageLookupByLibrary.simpleMessage("كلمة السر الخاصة بك")
       };
 }

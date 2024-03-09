@@ -33,8 +33,8 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
   bool showPass = false;
   @override
   void initState() {
-    numOrEmailController.text = 'alicom@gmail.com';
-    passwordController.text = 'secret';
+    numOrEmailController.text = '';
+    passwordController.text = '';
     super.initState();
   }
 
@@ -76,8 +76,8 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                     InkWell(
                       onTap: () {
                         setState(() {
-                          numOrEmailController.text = 'raju@gmail.com';
-                          passwordController.text = '123456';
+                          numOrEmailController.text = '';
+                          passwordController.text = '';
                         });
                       },
                       child: Text(

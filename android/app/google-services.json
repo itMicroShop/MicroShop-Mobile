@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "474885582957",
+    "project_id": "itmicroshop",
+    "storage_bucket": "itmicroshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474885582957:android:c0cf53f5a583823315cf64",
+        "android_client_info": {
+          "package_name": "com.microlab.microshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdNVJAm-bazlrHkApLGf-KBYSbuFc-YHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
